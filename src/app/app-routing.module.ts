@@ -25,6 +25,10 @@ const appRoutes: Routes = [
     loadChildren: './pages/tutorials/tutorials.module#TutorialsModule'
   },
   {
+    path: 'tutorial',
+    loadChildren: './pages/tutorial/tutorial.module#TutorialModule'
+  },
+  {
     path: 'blog',
     loadChildren: './pages/blog/blog.module#BlogModule'
   },
