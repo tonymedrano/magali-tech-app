@@ -4,11 +4,14 @@ import { RouterModule } from '@angular/router';
 
 import { AboutComponent } from './about.component';
 
+import { MtComponentsModule } from "../../mt-components/mt-components.module";
+
 
 @NgModule({
   declarations: [AboutComponent],
   imports: [
     CommonModule,
+    MtComponentsModule,
     RouterModule.forChild([{ path: '', component: AboutComponent }]),
   ]
 })
